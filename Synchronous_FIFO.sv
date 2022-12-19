@@ -18,12 +18,12 @@ output logic FIFO_full; 									//Logic high when the FIFO memory is full - do 
 output logic [(DATA_WIDTH-1):0] data_out;					//FIFO memory output 
 
 //Internal signals
-logic [ADDR_WIDTH:0] rptr;						//Read pointer
-logic [ADDR_WIDTH:0] wptr;						//Write pointer
-logic [DATA_WIDTH-1:0] mem [(2**ADDR_WIDTH-1):0];		//FIFO memory registers (32 8-bit words in defaults settings)
+logic [ADDR_WIDTH:0] rptr;				            		//Read pointer
+logic [ADDR_WIDTH:0] wptr;					            	//Write pointer
+logic [DATA_WIDTH-1:0] mem [(2**ADDR_WIDTH-1):0];	    	//FIFO memory registers (32 8-bit words in defaults settings)
 
 		
-integer i;						//Used for reseting the FIFO memory
+integer i;						                            //Used for reseting the FIFO memory
 
 //HDL code
 
