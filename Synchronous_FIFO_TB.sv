@@ -1,10 +1,10 @@
 `timescale 1ns/100ps
-//Following TB verifies the Synchronous_FIFO operation including reading, writing, FIFO full and empty conditions
+//Following TB verifies the Synchronous_FIFO operation including reading, writing and FIFO full/empty conditions
 module Synchronous_FIFO_TB();
 
 //Parameter declarations
 
-parameter DATA_WIDTH = 8;                       //Word width
+parameter DATA_WIDTH = 8;                        //Word width
 parameter ADDR_WIDTH = 5;                        //FIFO memory depth
 parameter CLK_PERIOD = 20;
 //Internal signals declarations
