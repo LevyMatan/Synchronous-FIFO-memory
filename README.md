@@ -17,35 +17,33 @@ The testbench comprises three tests for a 32 8-bit word FIFO memory:
 1.	Writing random data to the FIFO memory until it is full  
 
 	a.	Verify correctness of written data  
-	
 	b.	Verify correctness of the FIFO memory full signal
 
-	QuestaSim terminal window:
-		![QuestaSim terminal window](./docs/Write_test.GIF) 
+	**QuestaSim terminal window:**
+		![QuestaSim terminal window](./docs/Write_test.JPEG) 
 
 	QuestaSim wave window:
-		![QuestaSim wave window](./docs/Write_test_wave.GIF)  
+		![QuestaSim wave window](./docs/Write_test_wave.JPEG)  
 	
 	
 2.	Reading from the FIFO memory until it is empty  
 
 	a.	Verify correctness of the read data  
-	
 	b.	Verify correctness of the FIFO memory empty signal
 	
 	QuestaSim terminal window:
-		![QuestaSim terminal window](./docs/Read_test.GIF) 
+		![QuestaSim terminal window](./docs/Read_test.JPEG) 
 
 	QuestaSim wave window:
-		![QuestaSim wave window](./docs/Read_test_wave.GIF)  
+		![QuestaSim wave window](./docs/Read_test_wave.JPEG)  
 	
 3.	Continuous read-write operation with same frequency 
 
 	QuestaSim terminal window:
-		![QuestaSim terminal window](./docs/continious_test.GIF) 
+		![QuestaSim terminal window](./docs/continious_test.JPEG) 
 
 	QuestaSim wave window:
-		![QuestaSim wave window](./docs/continious_test_wave.GIF)  
+		![QuestaSim wave window](./docs/continious_test_wave.JPEG)  
 	
 
 
