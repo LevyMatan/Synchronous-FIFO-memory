@@ -17,11 +17,12 @@ The testbench comprises three tests for a 32 8-bit word FIFO memory:
 1.	Writing to the FIFO memory until it is full
 	a.	Verify correctness of written data
 	b.	Verify correctness of the FIFO memory full signal
-	![ModelSim wave window](./docs/imgs/Write_test_wave.gif)  
-	
+	![ModelSim wave window](./docs/Write_test_wave.GIF)  
+	![ModelSim terminal window](./docs/Write_test.GIF)  
 2.	Reading from the FIFO memory until it is empty
 	a.	Verify correctness of the read data
 	b.	Verify correctness of the FIFO memory empty signal
+	
 3.	Continuous read-write operation with same frequency 
 
 
