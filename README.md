@@ -14,19 +14,30 @@ The source files  are located at the repository root:
 ## Testbench
 
 The testbench comprises three tests for a 32 8-bit word FIFO memory:
-1.	Writing to the FIFO memory until it is full.
-	a.	Verify correctness of written data
+1.	Writing random data to the FIFO memory until it is full  
+
+	a.	Verify correctness of written data  
+	
 b.	Verify correctness of the FIFO memory full signal
 
-	![ModelSim terminal window](./docs/Write_test.GIF) 
+QuestaSim terminal window:
+	![QuestaSim terminal window](./docs/Write_test.GIF) 
 
-
+QuestaSim wave window:
 	![ModelSim wave window](./docs/Write_test_wave.GIF)  
 	
 	
-2.	Reading from the FIFO memory until it is empty
-	a.	Verify correctness of the read data
+2.	Reading from the FIFO memory until it is empty  
+
+	a.	Verify correctness of the read data  
+	
 	b.	Verify correctness of the FIFO memory empty signal
+	
+	QuestaSim terminal window:
+	![QuestaSim terminal window](./docs/Read_test.GIF) 
+
+QuestaSim wave window:
+	![ModelSim wave window](./docs/Read_test_wave.GIF)  
 	
 3.	Continuous read-write operation with same frequency 
 
